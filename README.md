@@ -1,4 +1,4 @@
-# SnapCost 🧾⚡
+# SnapCost
 > **Clean & Effortless Expense Scanner** — Modern on-device AI receipt scanner & financial expense tracker designed with European FinTech aesthetics (Revolut / Apple Wallet).
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-blue.svg?logo=flutter)](https://flutter.dev)
@@ -8,34 +8,34 @@
 
 ---
 
-## ✨ Features
+## Features
 
-- **📸 On-Device AI Receipt Scanner**: Real-time receipt scanning using `google_mlkit_text_recognition`. 100% offline & private.
-- **🧠 Smart Regex OCR Engine**: Automatically extracts:
+- **On-Device AI Receipt Scanner**: Real-time receipt scanning using `google_mlkit_text_recognition`. 100% offline & private.
+- **Smart Regex OCR Engine**: Automatically extracts:
   - **Merchant / Store Name** (Filters noise, cleans capitalization)
   - **Transaction Date** (`DD/MM/YYYY`, `YYYY-MM-DD`, etc.)
   - **Total Amount** (`Rp`, `USD`, `TOTAL`, `GRAND TOTAL`)
   - **Auto-Categorization** (Maps store names to Food, Groceries, Transport, Bills, etc.)
-- **💎 European FinTech UI/UX**:
+- **European FinTech UI/UX**:
   - Ultra-clean minimalist layout inspired by Revolut & Apple Wallet.
   - Light Mode (`#F8F9FA` with emerald `#10B981`) & Dark Mode (`#0F172A` with neon mint `#34D399`).
   - Subtle 1px borders, smooth 16px rounded corners, and tactile haptic feedback.
-- **📊 Interactive Financial Dashboard**:
+- **Interactive Financial Dashboard**:
   - Hero monthly expenditure display with budget progress bar.
   - Category breakdown donut charts powered by `fl_chart`.
   - Grouped chronological transaction history (*Hari Ini*, *Kemarin*, specific date).
-- **🔒 Biometric Security**:
+- **Biometric Security**:
   - Secure Fingerprint / FaceID authentication via `local_auth`.
   - Background auto-lock protection.
-- **⏰ Scheduled Reminders**:
+- **Scheduled Reminders**:
   - Daily local push notifications via `flutter_local_notifications`.
-- **📂 Local Offline Storage & Data Export**:
+- **Local Offline Storage & Data Export**:
   - Ultra-fast SQLite database with full CRUD operations.
   - One-tap export to CSV / Excel format via `share_plus`.
 
 ---
 
-## 🏗️ Architecture & Project Structure
+## Architecture & Project Structure
 
 The project follows **Clean Architecture** with a **Feature-First** modular organization:
 
@@ -98,7 +98,7 @@ snapcost/
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## Tech Stack & Dependencies
 
 - **Framework**: Flutter 3.x / Dart
 - **State Management**: `provider`
@@ -113,11 +113,11 @@ snapcost/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/<your-username>/snapcost.git
+git clone https://github.com/Novazeb/snapcost.git
 cd snapcost
 ```
 
@@ -147,5 +147,5 @@ flutter run -d chrome
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the MIT License.
